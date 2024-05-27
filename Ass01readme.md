@@ -31,10 +31,10 @@ number	    --> Required. The number to be truncated
 decimals    --> Required. The number of decimal places to truncate to
 
 Example: 
-SELECT TRUNCATE(254.589654, 1);
+SELECT TRUNCATE(254.589654, 2);
 
 The Result:
-254.5
+254.58
 ---------------------------------------------------------------------------------------
 
 Advanced Function: BIN()
