@@ -1,6 +1,6 @@
 SQL Functions
 -------------
-String Function: TRIM()
+1. String Function: TRIM()
 -----------------------
 Definition:
 The TRIM() function removes leading and trailing spaces from a string.
@@ -18,7 +18,7 @@ The Result:
 This is the statements.
 --------------------------------------------------------------------------------------
 
-Numeric Function: TRUNCATE()
+2. Numeric Function: TRUNCATE()
 ----------------------------
 Definition:
 The TRUNCATE() function truncates a number to the specified number of decimal places.
@@ -31,13 +31,13 @@ number	    --> Required. The number to be truncated
 decimals    --> Required. The number of decimal places to truncate to
 
 Example: 
-SELECT TRUNCATE(254.589654, 1);
+SELECT TRUNCATE(254.589654, 2);
 
 The Result:
-254.5
+254.58
 ---------------------------------------------------------------------------------------
 
-Advanced Function: BIN()
+3. Advanced Function: BIN()
 ------------------------
 Definition:
 The BIN() function returns a binary representation of a number, as a string value.
@@ -55,7 +55,7 @@ The Result:
 1010
 ----------------------------------------------------------------------------------------
 
-Date Function: TIME_FORMAT()
+4. Date Function: TIME_FORMAT()
 ----------------------------
 Definition:
 The TIME_FORMAT() function formats a time by a specified format.
